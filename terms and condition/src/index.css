@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-brand-blue: #0B3558;
+  --color-brand-blue-dark: #062035;
+  --color-brand-blue-accent: #0284C7;
+  --color-brand-blue-light: #F0F7FD;
+  --color-brand-lemon: #84CC16;
+  --color-brand-lemon-hover: #74BE14;
+  --color-brand-lemon-dark: #4D7C0F;
+}
+
+@media print {
+  header,
+  footer,
+  aside,
+  .no-print {
+    display: none !important;
+  }
+  main,
+  #legal-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .print-page-break {
+    page-break-before: always;
+  }
+  body {
+    color: #000000 !important;
+    background: #ffffff !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+  a {
+    text-decoration: underline !important;
+    color: #000000 !important;
+  }
+}

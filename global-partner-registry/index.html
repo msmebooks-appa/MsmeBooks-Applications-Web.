@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      // 1. Comprehensive console & event interceptor for Vite HMR notices in AI Studio iframe preview
+      (function() {
+        function isViteNotice(arg) {
+          if (!arg) return false;
+          var str = typeof arg === 'string' ? arg : (arg.message || arg.stack || arg.reason || String(arg));
+          return /\[vite\]|websocket|vite-hmr|vite-ping|closed without opened|failed to connect to websocket/i.test(str);
+        }
+
+        ['error', 'warn', 'info', 'log'].forEach(function(method) {
+          var orig = window.console[method];
+          if (orig) {
+            window.console[method] = function() {
+              var args = Array.prototype.slice.call(arguments);
+              for (var i = 0; i < args.length; i++) {
+                if (isViteNotice(args[i])) {
+                  return;
+                }
+              }
+              return orig.apply(window.console, args);
+            };
+          }
+        });
+
+        window.addEventListener('error', function(e) {
+          if (e && (isViteNotice(e.message) || isViteNotice(e.error))) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            return true;
+          }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(e) {
+          if (e && isViteNotice(e.reason)) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            return true;
+          }
+        }, true);
+
+        // 2. Graceful WebSocket stub for Vite HMR
+        if (typeof window !== 'undefined' && window.WebSocket) {
+          var _NativeWebSocket = window.WebSocket;
+          function FakeWebSocket(url, protocols) {
+            var urlStr = String(url || '');
+            var protoStr = Array.isArray(protocols) ? protocols.join(' ') : String(protocols || '');
+            var isVite = protoStr.includes('vite') ||
+              urlStr.includes('vite') ||
+              protoStr.includes('hmr') ||
+              urlStr.includes('hmr') ||
+              urlStr.includes('24678') ||
+              urlStr.includes('token=') ||
+              urlStr.includes(window.location.host);
+
+            if (isVite) {
+              var target = new EventTarget();
+              var fake = {
+                url: urlStr,
+                protocol: Array.isArray(protocols) ? protocols[0] || '' : (protocols || ''),
+                readyState: 1, // OPEN
+                CONNECTING: 0,
+                OPEN: 1,
+                CLOSING: 2,
+                CLOSED: 3,
+                binaryType: 'blob',
+                bufferedAmount: 0,
+                extensions: '',
+                onopen: null,
+                onmessage: null,
+                onerror: null,
+                onclose: null,
+                send: function() {},
+                close: function() {},
+                addEventListener: function(type, listener, options) {
+                  target.addEventListener(type, listener, options);
+                },
+                removeEventListener: function(type, listener, options) {
+                  target.removeEventListener(type, listener, options);
+                },
+                dispatchEvent: function(event) {
+                  return target.dispatchEvent(event);
+                }
+              };
+
+              // Immediately dispatch open event so any awaiter resolves without error
+              setTimeout(function() {
+                var ev = new Event('open');
+                if (typeof fake.onopen === 'function') {
+                  try { fake.onopen(ev); } catch (err) {}
+                }
+                target.dispatchEvent(ev);
+              }, 0);
+
+              return fake;
+            }
+
+            try {
+              return new _NativeWebSocket(url, protocols);
+            } catch (err) {
+              return fake;
+            }
+          }
+
+          FakeWebSocket.CONNECTING = 0;
+          FakeWebSocket.OPEN = 1;
+          FakeWebSocket.CLOSING = 2;
+          FakeWebSocket.CLOSED = 3;
+          FakeWebSocket.prototype = _NativeWebSocket.prototype;
+          window.WebSocket = FakeWebSocket;
+        }
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>MsmeBooks Global Partner Registry & Directory | Find Verified Business Tech Partners</title>
+    <meta name="description" content="Find trusted MsmeBooks partners, verified accountants, POS specialists, implementation consultants, and technology advisors across Africa and globally." />
+    <meta property="og:title" content="MsmeBooks Global Partner Registry & Directory" />
+    <meta property="og:description" content="Find trusted MsmeBooks partners, verified accountants, POS specialists, implementation consultants, and technology advisors across Africa and globally." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- PWA & Mobile Web App Meta Tags -->
+    <meta name="theme-color" content="#07162b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="MsmePartners" />
+    <link rel="icon" type="image/svg+xml" href="/pwa-icon.svg" />
+    <link rel="alternate icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/pwa-icon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-lime-500 selection:text-slate-950">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

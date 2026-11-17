@@ -1,0 +1,1241 @@
+
+Create a Saas professional prompt for MsmeBooks terms and conditions, maintain brand colors and identity 
+
+Below is a comprehensive, professional, developer-ready SaaS prompt for the MsmeBooks Terms and Conditions landing page, designed for a modern Pan-African and global business management platform.
+
+The prompt strictly preserves MsmeBooks' Blue + Lemon Green brand identity while covering SaaS subscriptions, accounting, POS, inventory, payroll, integrations, payments, customer responsibilities, data protection, partner relationships, and international operations.
+
+MASTER PROMPT: MSMEBOOKS PROFESSIONAL SAAS TERMS & CONDITIONS LANDING PAGE
+1. PROJECT OVERVIEW
+Design and develop a premium, modern, professional, legally structured, and mobile-responsive Terms and Conditions / Terms of Service landing page for MsmeBooks, an all-in-one cloud-based Accounting, Point of Sale (POS), Inventory, and Business Management SaaS platform serving micro, small, and medium-sized businesses across Africa and international markets.
+
+Website: www.msmebooks.org
+Brand: MsmeBooks
+Platform: Multi-tenant, subscription-based SaaS
+Target Audience: Business owners, accountants, retailers, hospitality operators, service providers, distributors, enterprises, developers, partners, and resellers.
+
+The page must communicate professionalism, transparency, customer trust, legal accountability, and enterprise-level SaaS credibility.
+
+Create a premium legal information experience inspired by the clarity and structure of leading global SaaS companies such as Stripe, Xero, Zoho, QuickBooks, Microsoft, and Shopify.
+
+Do not copy their legal content or designs.
+
+Important: All legal provisions must be presented as professionally drafted content for review by qualified legal counsel before publication. Do not invent MsmeBooks' registered legal entity, governing jurisdiction, statutory registrations, compliance certifications, or binding commercial policies.
+
+2. STRICT BRAND IDENTITY AND DESIGN RULES
+Maintain MsmeBooks' existing brand identity across the entire page.
+
+Primary Brand Colors
+Primary Blue: Use the exact blue from the approved MsmeBooks logo and website design system.
+
+Lemon Green: Use the exact approved MsmeBooks lemon-green brand color.
+
+White: Primary page background.
+
+Light Blue: Subtle section backgrounds and hover treatments.
+
+Charcoal / Navy: Legal body text and headings.
+
+Light Gray: Borders, separators, navigation backgrounds, and secondary information.
+
+Do not introduce unrelated dominant colors, gradients, or branding.
+
+Logo Requirements
+Use the latest approved MsmeBooks logo.
+
+Preserve its original proportions and color arrangement.
+
+Do not redesign, recolor, or distort the logo.
+
+Maintain consistent logo positioning in the navigation and footer.
+
+Visual Style
+Create a clean, premium enterprise SaaS legal interface featuring:
+
+Modern typography such as Inter or Plus Jakarta Sans.
+
+Professional spacing and visual hierarchy.
+
+Rounded but restrained UI components.
+
+Minimal decorative elements.
+
+Blue section headings and lemon-green active navigation indicators.
+
+Elegant white cards with subtle borders.
+
+Accessible contrast and readable legal text.
+
+Consistent styling with the MsmeBooks Privacy Policy, About Us, FAQ, Contact Us, and other existing landing pages.
+
+Avoid excessive animations, distracting stock photography, and cluttered legal layouts.
+
+3. HERO SECTION
+Headline
+MsmeBooks Terms & Conditions
+
+Supporting Headline
+Clear Terms. Trusted Technology. Better Business.
+
+Description
+"Welcome to MsmeBooks. These Terms and Conditions explain the rules, responsibilities, rights, and obligations governing access to and use of our cloud-based accounting, point of sale, inventory, and business management solutions.
+
+We believe in transparency, security, and building lasting relationships with businesses across Africa and beyond."
+
+Hero Components
+Include:
+
+Breadcrumb: Home → Legal → Terms & Conditions
+
+Last Updated: [Approved Date]
+
+Effective Date: [Approved Date]
+
+Version Number
+
+Download PDF
+
+Print Terms
+
+Contact Support
+
+Use a clean white or very light blue background, prominent blue headline, and a subtle lemon-green decorative accent.
+
+4. STICKY LEGAL NAVIGATION AND TABLE OF CONTENTS
+Develop a professional, interactive table of contents to help visitors navigate lengthy legal information.
+
+Desktop Layout
+Left: Sticky legal navigation sidebar.
+
+Right: Full Terms and Conditions content.
+
+Active section highlighted in lemon green.
+
+Smooth scrolling between sections.
+
+Search field for finding terms.
+
+Collapsible section groups where appropriate.
+
+Mobile Layout
+Collapsible table of contents.
+
+Sticky "Jump to Section" navigation.
+
+Touch-friendly buttons and section anchors.
+
+Readable single-column legal content.
+
+Add a progress indicator showing how far the user has read.
+
+5. COMPREHENSIVE TERMS AND CONDITIONS CONTENT
+Create clearly numbered, professionally drafted legal sections covering the following topics.
+
+Section 1: Introduction and Acceptance of Terms
+Explain:
+
+The purpose of the Terms and Conditions.
+
+The contractual relationship between MsmeBooks and its customers.
+
+Acceptance through registration, subscription, or use of the platform.
+
+Authorized representatives accepting terms on behalf of organizations.
+
+Relationship between the Terms, Privacy Policy, subscription agreements, and applicable additional service terms.
+
+Circumstances in which customers should discontinue use if they do not accept the terms.
+
+Section 2: Definitions and Interpretation
+Define important legal and technical terms, including:
+
+MsmeBooks / Company / Provider
+
+Customer / Subscriber
+
+Authorized User
+
+Account Administrator
+
+Services / Platform
+
+Subscription Plan
+
+Customer Data
+
+Personal Data
+
+Third-Party Services
+
+Add-On Modules
+
+Billing Cycle
+
+Service Availability
+
+Intellectual Property
+
+Confidential Information
+
+Acceptable Use
+
+Use a structured definition table.
+
+Section 3: Eligibility and Account Registration
+Cover:
+
+Eligibility to create and operate an account.
+
+Accuracy of registration information.
+
+Business verification requirements, where applicable.
+
+Account ownership and administrator authority.
+
+Password protection and authentication.
+
+Multi-factor authentication.
+
+Authorized users and employee access.
+
+Unauthorized account activity.
+
+Responsibilities for maintaining account security.
+
+Section 4: Scope of MsmeBooks SaaS Services
+Explain that MsmeBooks offers modular business management functionality, subject to the customer's subscribed plan.
+
+Cover:
+
+Accounting & Financial Management
+
+General ledger
+
+Invoicing and billing
+
+Accounts payable and receivable
+
+Expense tracking
+
+Bank reconciliation
+
+Financial statements and reports
+
+Point of Sale (POS)
+
+Sales processing
+
+Retail transactions
+
+Cash registers
+
+Multi-location sales
+
+Payment integrations
+
+Inventory & Warehouse
+
+Stock management
+
+Inventory transfers
+
+Warehouse operations
+
+Stock valuation
+
+Purchase and supplier management
+
+Human Resources & Payroll
+
+Employee management
+
+Payroll processing
+
+Attendance and related features, where available
+
+Hospitality & Business Operations
+
+Hotel and property management modules
+
+Restaurant operations
+
+Reservations and bookings
+
+Business-specific operational add-ons
+
+Additional Platform Services
+
+E-commerce
+
+Integrations and APIs
+
+Reporting and analytics
+
+Marketplace applications
+
+AI-powered functionality where available
+
+Clarify that features, modules, and availability depend on the subscribed plan, enabled add-ons, and applicable service agreements.
+
+Section 5: Subscription Plans and Licensing
+Cover:
+
+Free Plan
+
+Enterprise Plan
+
+Custom Plan
+
+Paid add-on modules
+
+Monthly and annual subscriptions where offered
+
+User-based or business-based subscriptions
+
+Branch and location allowances
+
+Feature and usage restrictions
+
+Subscription upgrades and downgrades
+
+Auto-renewal where expressly agreed
+
+Trial accounts and promotional offers
+
+Explain that customers receive a limited, non-exclusive, non-transferable right to access and use the subscribed services, subject to the agreed terms.
+
+Do not invent subscription prices, usage limits, or renewal policies.
+
+Section 6: Billing, Payments and Taxes
+Include provisions covering:
+
+Subscription invoices
+
+Accepted payment methods
+
+Recurring billing authorization
+
+Payment due dates
+
+Failed payment processing
+
+Late payments
+
+Currency conversion
+
+Applicable taxes
+
+Withholding taxes
+
+VAT and similar indirect taxes
+
+Third-party payment processing
+
+Billing disputes
+
+Payment receipts
+
+Distinguish MsmeBooks' own subscription charges from payments that customers collect from their clients using integrated payment providers.
+
+Section 7: Refunds, Cancellations and Subscription Termination
+Cover:
+
+Subscription cancellation procedures.
+
+Applicable refund eligibility.
+
+Free trials and promotional subscriptions.
+
+Annual subscription cancellations.
+
+Add-on purchases.
+
+Non-refundable fees, where lawful and expressly agreed.
+
+Refund request procedures.
+
+Account suspension for unpaid subscriptions.
+
+Customer access after cancellation.
+
+Data export and retention periods.
+
+Account deletion requests.
+
+Link to the separate Refund Policy.
+
+Do not create arbitrary cancellation deadlines or refund restrictions.
+
+Section 8: Customer Data Ownership and Privacy
+Explain:
+
+Customer ownership and control of business data.
+
+MsmeBooks' limited rights to process customer data for contracted purposes.
+
+Personal data processing responsibilities.
+
+Customer obligations when uploading third-party personal data.
+
+Data confidentiality.
+
+Authorized data access.
+
+Data export and portability.
+
+Data retention and deletion.
+
+Third-party subprocessors.
+
+Cross-border data transfers.
+
+Applicable data protection laws.
+
+Address the Nigeria Data Protection Act 2023 and other relevant laws in applicable markets, including GDPR where legally relevant.
+
+Link to the MsmeBooks Privacy Policy and any applicable Data Processing Agreement.
+
+Section 9: Information Security and Platform Protection
+Cover:
+
+Authentication and access controls.
+
+Encryption practices, subject to verified implementation.
+
+Security monitoring.
+
+Vulnerability management.
+
+Customer account security obligations.
+
+Incident reporting and notifications.
+
+Backup and disaster recovery policies.
+
+Security-related account restrictions.
+
+Shared responsibility for protecting data.
+
+Do not claim ISO 27001, SOC 2, PCI DSS, or any other certification unless verified.
+
+Section 10: Accounting, Financial and Tax Responsibilities
+Explain that:
+
+MsmeBooks provides software tools for business accounting and financial management.
+
+Customers remain responsible for the accuracy of financial records.
+
+Customers must verify accounting entries, balances, reports, and tax calculations.
+
+Software output does not automatically constitute professional accounting, auditing, tax, or legal advice.
+
+Customers should consult qualified professionals when appropriate.
+
+Customers remain responsible for complying with applicable tax and financial reporting laws.
+
+Section 11: POS, Payments and Transaction Processing
+Cover:
+
+POS transaction recording.
+
+Customer responsibility for pricing and sales information.
+
+Integrated payment service providers.
+
+Payment settlement responsibilities.
+
+Chargebacks and transaction disputes.
+
+Failed or reversed transactions.
+
+Cash register discrepancies.
+
+Hardware and terminal compatibility.
+
+Payment provider outages.
+
+Fraud prevention responsibilities.
+
+Clarify the role of third-party processors and avoid implying that MsmeBooks itself is a licensed payment institution unless verified.
+
+Section 12: Inventory, Warehouse and Stock Management
+Include terms covering:
+
+Stock record accuracy.
+
+Inventory adjustments.
+
+Product and SKU management.
+
+Stock valuation configurations.
+
+Warehouse transfers.
+
+Physical stock reconciliation.
+
+Supplier records.
+
+Damaged or expired stock.
+
+Business responsibility for stock discrepancies.
+
+Section 13: Payroll, HR and Employee Information
+Cover:
+
+Employee data handling.
+
+Payroll calculations and approvals.
+
+Tax deductions and statutory contributions.
+
+Payroll configuration.
+
+Employer compliance obligations.
+
+Employee confidentiality.
+
+Attendance and biometric data where applicable.
+
+Third-party payroll payment integrations.
+
+Customer responsibility for employment-related legal compliance.
+
+Section 14: Hospitality, Restaurant and Property Management
+Include:
+
+Reservations and booking records.
+
+Room availability and allocation.
+
+Guest information.
+
+Property and hotel management.
+
+Restaurant orders.
+
+Kitchen and POS workflows.
+
+Guest payment disputes.
+
+Cancellation and no-show policies set by the hospitality operator.
+
+Third-party booking channel integrations.
+
+Clarify that hospitality businesses remain responsible for their own customer-facing booking policies.
+
+Section 15: E-commerce, Marketplace and Third-Party Applications
+Cover:
+
+Online storefront functionality.
+
+Marketplace extensions.
+
+Third-party add-ons.
+
+Merchant responsibilities.
+
+Third-party application permissions.
+
+Integration availability.
+
+Vendor agreements.
+
+Customer data sharing permissions.
+
+Third-party fees.
+
+App compatibility.
+
+Removal or discontinuation of integrations.
+
+Section 16: API Access and Developer Usage
+Include:
+
+API credentials.
+
+Authentication tokens.
+
+Rate limits.
+
+Permitted API use.
+
+Integration security.
+
+Unauthorized automation.
+
+API version changes.
+
+Developer responsibilities.
+
+Restrictions on reverse engineering.
+
+API service suspension for abuse.
+
+Section 17: Artificial Intelligence and Automated Features
+Where AI features are offered, explain:
+
+AI-generated suggestions and reports.
+
+Possible inaccuracies and limitations.
+
+Human verification requirements.
+
+Financial and business decision responsibilities.
+
+Permitted AI usage.
+
+Customer data handling in AI services.
+
+Third-party AI providers where applicable.
+
+Prohibited harmful or unauthorized AI use.
+
+Clearly state that AI-generated outputs should not be treated as guaranteed accurate professional advice.
+
+Section 18: Acceptable Use Policy
+Define prohibited conduct, including:
+
+Illegal activity.
+
+Fraudulent transactions.
+
+Unauthorized account access.
+
+Malware distribution.
+
+System exploitation.
+
+Unauthorized scraping.
+
+Intellectual property infringement.
+
+Abuse of APIs.
+
+Misuse of customer or employee information.
+
+Attempts to disrupt the platform.
+
+Activities that compromise platform security.
+
+Explain proportionate enforcement and account suspension procedures.
+
+Section 19: Intellectual Property Rights
+Cover:
+
+MsmeBooks software ownership.
+
+Trademarks and brand assets.
+
+Software interfaces and documentation.
+
+Licensed third-party technologies.
+
+Restrictions on redistribution.
+
+Customer-owned content.
+
+Customer feedback and suggestions.
+
+Permitted use of logos and marketing materials.
+
+Section 20: Service Availability, Maintenance and Updates
+Explain:
+
+Cloud service availability.
+
+Scheduled maintenance.
+
+Emergency maintenance.
+
+Platform upgrades.
+
+Bug fixes.
+
+Service interruptions.
+
+Third-party infrastructure dependencies.
+
+Feature modifications.
+
+Support and maintenance responsibilities.
+
+Applicable service-level agreements.
+
+Do not promise a specific uptime percentage without an approved SLA.
+
+Section 21: Technical Support and Customer Assistance
+Cover:
+
+Customer support channels.
+
+Support eligibility by plan.
+
+Technical troubleshooting.
+
+Implementation assistance.
+
+Training and onboarding.
+
+Data migration support.
+
+Premium support arrangements.
+
+Response times where contractually agreed.
+
+Support escalation procedures.
+
+Section 22: Resellers, Affiliates and Business Partners
+Include:
+
+Authorized partner relationships.
+
+Reseller responsibilities.
+
+Referral arrangements.
+
+Commission eligibility.
+
+Partner payment terms.
+
+Prohibited misrepresentation.
+
+Use of MsmeBooks branding.
+
+Customer onboarding responsibilities.
+
+Partner termination.
+
+Separate partner and reseller agreements.
+
+Clarify that specific commission rates and benefits are governed by approved partner agreements.
+
+Section 23: Professional Services and Third-Party Consultants
+Cover:
+
+Bookkeeping services.
+
+Accounting services.
+
+Software implementation.
+
+Migration services.
+
+Training.
+
+Consulting.
+
+Direct MsmeBooks services versus independent service providers.
+
+WhatsApp service booking requests.
+
+Separate service quotations and agreements.
+
+Responsibility for independently contracted professional firms.
+
+Section 24: Confidentiality
+Define confidential information and address:
+
+Permitted disclosure.
+
+Authorized employee and contractor access.
+
+Legal disclosure obligations.
+
+Confidentiality exceptions.
+
+Protection of sensitive business information.
+
+Obligations following termination.
+
+Section 25: Warranties and Disclaimers
+Include appropriately qualified provisions on:
+
+Software functionality.
+
+Internet connectivity.
+
+Third-party service dependencies.
+
+Customer configuration errors.
+
+Data accuracy.
+
+Business outcomes.
+
+Implied warranties.
+
+Mandatory consumer and statutory rights.
+
+Ensure disclaimers remain subject to applicable law.
+
+Section 26: Limitation of Liability
+Draft balanced, legally reviewable provisions addressing:
+
+Direct and indirect losses.
+
+Business interruption.
+
+Loss of profits.
+
+Data loss.
+
+Service interruption.
+
+Third-party failures.
+
+Financial liability caps.
+
+Exclusions that cannot lawfully be restricted.
+
+Do not invent a financial liability cap without management approval.
+
+Section 27: Indemnification
+Address appropriate responsibilities arising from:
+
+Unlawful use of the platform.
+
+Customer-provided content.
+
+Breach of contractual obligations.
+
+Third-party rights violations.
+
+Fraudulent conduct.
+
+Claims relating to customer business operations.
+
+Keep obligations balanced and legally enforceable.
+
+Section 28: Suspension and Termination
+Explain:
+
+Voluntary account termination.
+
+Non-payment.
+
+Material breach.
+
+Security threats.
+
+Illegal or fraudulent activities.
+
+Notice and remediation opportunities where appropriate.
+
+Effect of termination.
+
+Outstanding payment obligations.
+
+Data export and deletion.
+
+Section 29: International Users and Cross-Border Services
+Cover:
+
+Services provided across African and international markets.
+
+Local regulatory responsibilities.
+
+Country-specific restrictions.
+
+Currency differences.
+
+Tax treatment.
+
+Cross-border data handling.
+
+Sanctions and export-control compliance where applicable.
+
+Additional jurisdiction-specific terms.
+
+Section 30: Governing Law and Dispute Resolution
+Provide legally reviewable placeholders for:
+
+Governing law.
+
+Contractual jurisdiction.
+
+Informal dispute resolution.
+
+Complaint submission.
+
+Mediation.
+
+Arbitration where appropriate.
+
+Court proceedings.
+
+Mandatory rights that cannot be waived.
+
+Do not assume the applicable legal jurisdiction merely because MsmeBooks operates in Nigeria.
+
+Section 31: Changes to Terms and Conditions
+Explain:
+
+How terms may be updated.
+
+How customers will be notified of material changes.
+
+Publication of revised terms.
+
+Effective dates.
+
+Customer rights where changes materially affect their agreement.
+
+Archived versions of previous terms.
+
+Section 32: General Legal Provisions
+Include:
+
+Severability.
+
+Entire agreement.
+
+Assignment.
+
+Waiver.
+
+Force majeure.
+
+Notices.
+
+Relationship of the parties.
+
+Order of precedence between agreements.
+
+Survival of applicable provisions.
+
+Section 33: Contact Information and Legal Enquiries
+Create a professional contact section:
+
+MsmeBooks
+Website: www.msmebooks.org
+Phone: +2349158482622
+Legal Email: [Insert Verified Legal Email]
+Registered Company Name: [Insert Legal Entity]
+Registered Address: [Insert Address]
+
+Provide a clear call to action:
+
+"Have Questions About Our Terms?"
+
+Buttons:
+
+Contact Our Team
+
+Visit Help Center
+
+View Privacy Policy
+
+6. INTERACTIVE USER EXPERIENCE FEATURES
+Build the following features:
+
+Search Within Terms: Instant keyword searching with highlighted matching sections.
+
+Expandable Legal Sections: Accessible accordion-style sections.
+
+Reading Progress: Progress indicator that updates as users scroll.
+
+Copy Section Link: Copy a direct URL to any legal section.
+
+Download PDF: Generate or serve the approved version of the terms.
+
+Print-Friendly Version: Optimized legal-document print layout.
+
+Last Updated Indicator: Clearly display the approved publication date.
+
+Back to Top: Floating navigation control.
+
+Version History: Show previous approved legal document versions.
+
+Accessibility Controls: Keyboard navigation, focus states, semantic headings, and screen-reader compatibility.
+
+Ensure search, navigation, downloads, and other interactive controls are functional rather than decorative.
+
+7. SAAS REGISTRATION AND ACCEPTANCE INTEGRATION
+Integrate the Terms and Conditions into the existing MsmeBooks registration and subscription workflows.
+
+Signup Flow
+Include an unchecked acceptance checkbox:
+
+"I have read and agree to the MsmeBooks Terms and Conditions and acknowledge the Privacy Policy."
+
+The Terms and Conditions and Privacy Policy must each be separately clickable.
+
+Record relevant consent or contractual acceptance evidence, including:
+
+User/account identifier
+
+Accepted terms version
+
+Acceptance timestamp
+
+Applicable acceptance context
+
+Other audit metadata where lawful and necessary
+
+Ensure users can review the full terms before acceptance.
+
+Do not use preselected checkboxes where affirmative agreement is required.
+
+Keep optional marketing consent separate from contractual acceptance.
+
+Enterprise Agreements
+Allow enterprise and custom-plan customers to be governed by separately executed agreements where applicable, with clearly documented precedence.
+
+8. RESPONSIVE LAYOUT STRUCTURE
+Desktop
+Full-width brand-consistent header.
+
+Breadcrumb and hero section.
+
+Two-column legal content area.
+
+Sticky table of contents.
+
+Spacious legal typography.
+
+Clearly separated legal sections.
+
+Footer with all relevant legal links.
+
+Tablet
+Adaptive navigation.
+
+Comfortable reading widths.
+
+Collapsible sidebar.
+
+Responsive legal tables.
+
+Mobile
+Single-column layout.
+
+Expandable table of contents.
+
+Large touch targets.
+
+Smooth scrolling.
+
+Optimized paragraph spacing.
+
+Accessible download and contact buttons.
+
+The page must be fully responsive across modern desktop, tablet, and mobile devices.
+
+9. TECHNICAL IMPLEMENTATION REQUIREMENTS
+Develop the page using the existing MsmeBooks SaaS technology stack and shared website components.
+
+Where compatible with the existing project, use:
+
+React / Next.js
+
+TypeScript
+
+Tailwind CSS
+
+Existing component library
+
+Existing brand design tokens
+
+Semantic HTML
+
+Server-rendered legal content where appropriate
+
+Secure APIs for document version management
+
+Structured legal content maintained in a CMS or approved content repository
+
+Functional Requirements
+SEO-friendly URL: /terms-and-conditions
+
+Canonical metadata
+
+Optimized page title and meta description
+
+Fast page loading
+
+Accessible section anchors
+
+Mobile-first responsive styling
+
+WCAG 2.2 AA accessibility target
+
+No unnecessary client-side JavaScript
+
+No broken internal links
+
+Version-controlled legal documents
+
+Secure administrative publishing workflow
+
+Appropriate caching and revalidation
+
+Do not replace the existing application architecture or introduce an unrelated technology stack.
+
+10. SEO AND METADATA
+SEO Title:
+MsmeBooks Terms & Conditions | SaaS Terms of Service
+
+Meta Description:
+"Read the MsmeBooks Terms and Conditions governing our cloud-based accounting, POS, inventory, payroll, and business management software for businesses across Africa and beyond."
+
+Suggested URL:
+https://www.msmebooks.org/terms-and-conditions
+
+Use structured headings and search-engine-friendly content without compromising legal clarity.
+
+11. RELATED LEGAL DOCUMENTS
+Create a professionally styled related-documents section linking to:
+
+Privacy Policy
+
+Cookie Policy
+
+Refund and Cancellation Policy
+
+Acceptable Use Policy
+
+Data Processing Agreement
+
+Service Level Agreement
+
+Partner and Reseller Agreement
+
+Affiliate Terms
+
+API and Developer Terms
+
+Security Policy
+
+Only display active links to published, approved documents. For documents not yet available, omit the link or use an approved informational status.
+
+12. PROFESSIONAL FOOTER
+Use the standard MsmeBooks global SaaS footer, maintaining the existing blue and lemon-green brand identity.
+
+Include relevant navigation groups:
+
+Platform: Accounting, POS, Inventory, Payroll, Hospitality, E-commerce, Integrations.
+
+Company: About Us, Careers, Contact Us, Partners, Services.
+
+Resources: Help Center, FAQs, Blog, Customer Stories.
+
+Legal: Terms and Conditions, Privacy Policy, Refund Policy, Cookie Policy.
+
+Include the approved MsmeBooks logo, website address, contact details, and dynamic copyright year.
+
+13. CONTENT AND LEGAL QUALITY STANDARDS
+All legal content must be:
+
+Professional and understandable.
+
+Written in clear international business English.
+
+Structured with logical numbering.
+
+Suitable for a multi-tenant SaaS business.
+
+Relevant to both African and international customers.
+
+Consistent with the platform's actual products and services.
+
+Balanced between customer rights and provider protections.
+
+Transparent about third-party responsibilities.
+
+Consistent with other published MsmeBooks policies.
+
+Reviewed for enforceability in applicable jurisdictions.
+
+Avoid unnecessary legal jargon, misleading guarantees, unsupported compliance claims, and fabricated contractual details.
+
+Where a commercial or legal decision has not been supplied, insert an explicit approval placeholder rather than silently creating a binding policy.
+
+14. FINAL DESIGN AND DEVELOPMENT DELIVERABLES
+Produce:
+
+A complete, professionally designed Terms and Conditions landing page.
+
+Fully drafted legal content covering all 33 sections.
+
+A functional searchable table of contents.
+
+Responsive desktop, tablet, and mobile layouts.
+
+Downloadable and print-friendly legal document functionality.
+
+Legal-document versioning and update-date display.
+
+Signup acceptance integration specification.
+
+Working navigation to existing MsmeBooks pages.
+
+SEO-ready metadata and accessible page structure.
+
+A legal-review checklist identifying all unresolved company, billing, data protection, and jurisdictional details.
+
+FINAL INSTRUCTION
+
+Build this as a premium, production-ready SaaS legal landing page for MsmeBooks, consistent with a trustworthy global business software company.
+
+STRICTLY maintain the approved MsmeBooks Blue + Lemon Green brand colors, existing logo, typography, navigation, footer, and overall SaaS design identity.
+
+Do not alter the brand colors, create a replacement logo, or introduce an unrelated visual design.
+
+The finished page must look and function like an integrated part of the existing MsmeBooks website, not a standalone legal template.
+
+Prioritize legal clarity, customer confidence, accessibility, transparency, and enterprise-grade user experience.
+
+Recommended page layout
+MsmeBooks
+
+Platform
+
+Support
+
+Get Started
+
+HOME / LEGAL / TERMS
+
+Terms & Conditions
+Clear Terms. Trusted Technology. Better Business.
+
+Last updated: [Approved Date]
+
+CONTENTS
+
+Introduction
+
+Subscriptions
+
+Payments
+
+Data & Privacy
+
+Termination
+
+Contact
+
+1. Introduction
+Welcome to MsmeBooks. These Terms explain the contractual conditions governing access to our cloud-based business management platform.
+
+2. Subscriptions
+Access to platform modules and services is governed by the selected subscription plan and applicable agreements.
+
+3. Data & Privacy
+Customer information is handled according to applicable agreements and the MsmeBooks Privacy Policy.
+
+Questions about our terms?
+
+Our support team can help clarify the platform's terms and policies.
+
+Contact Support
+
+Privacy Policy →
+
+Illustrative layout only. Production colors should use the exact approved MsmeBooks brand tokens.
+Important before publication: Have the completed Terms and Conditions reviewed by a qualified legal professional, particularly the provisions covering Nigerian data protection, subscription renewals, refunds, financial liability, customer data retention, and international customers. This helps ensure that the published terms accurately reflect MsmeBooks' real operations and legal obligations.
+
+You're using the free version of ChatGPT. Upgrade for advanced models, better memory, and higher-quality image creation.
+Upgrade to Plus
+
+No file chosen

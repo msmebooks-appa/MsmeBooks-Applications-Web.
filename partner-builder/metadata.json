@@ -1,0 +1,6 @@
+{
+  "name": "MsmeBooks Partner Programme",
+  "description": "The official MsmeBooks SaaS Partner Programme: earn up to 40% recurring commissions, earn official partner badges, access partner certification, and join the verified directory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

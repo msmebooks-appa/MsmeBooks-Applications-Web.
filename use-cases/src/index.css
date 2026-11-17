@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --msme-blue: #0A3D62;
+    --msme-blue-dark: #072B45;
+    --msme-blue-light: #0E5A8A;
+    --msme-lemon: #7CB518;
+    --msme-lemon-light: #90CF24;
+    --msme-lemon-bg: #F4F9EC;
+  }
+
+  .dark {
+    --msme-lemon-bg: #13271A;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom utility classes for brand tokens */
+.bg-msme-blue {
+  background-color: #0A3D62;
+}
+
+.bg-msme-blue-dark {
+  background-color: #072B45;
+}
+
+.text-msme-blue {
+  color: #0A3D62;
+}
+
+.border-msme-blue {
+  border-color: #0A3D62;
+}
+
+.bg-msme-lemon {
+  background-color: #7CB518;
+}
+
+.text-msme-lemon {
+  color: #6A9E13;
+}
+
+.border-msme-lemon {
+  border-color: #7CB518;
+}
+
+.bg-msme-lemon-soft {
+  background-color: #F4F9EC;
+}

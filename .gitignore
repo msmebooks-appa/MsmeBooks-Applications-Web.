@@ -1,0 +1,61 @@
+# =============================================================================
+# MsmeBooks website - files that must NOT be pushed to GitHub
+# Everything listed here stays on your computer but is left out of the repo.
+# To push one of these anyway, delete (or put a "#" in front of) its line.
+# =============================================================================
+
+# ---- Dependencies (re-created with `npm install`) ----
+node_modules/
+
+# ---- Build output (re-created with `npm run build`) ----
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# ---- Secrets / environment variables (API keys etc.) ----
+.env
+.env.*
+!.env.example
+
+# ---- Logs, OS & editor junk ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+
+# ---- Netlify local folder ----
+.netlify/
+
+# =============================================================================
+# Left-overs from when every page folder was its own standalone app.
+# The site is now ONE app built from the root package.json / vite.config.ts /
+# index.html, so these per-folder copies are no longer used.
+# =============================================================================
+/*/node_modules/
+/*/dist/
+/*/package.json
+/*/package-lock.json
+/*/bun.lock
+/*/vite.config.ts
+/*/tsconfig.json
+/*/index.html
+/*/README.md
+/*/.gitignore
+/*/.env.example
+
+# Google AI Studio project files & screenshots (not part of the website)
+/*/metadata.json
+/*/public/
+
+# Old Express dev servers (already fully commented out - not used by the site)
+/*/server.ts
+
+# Firebase backend blueprint (AI Studio artifact, not used by the website build)
+/*/firebase-blueprint.json

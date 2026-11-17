@@ -1,0 +1,211 @@
+/*
+ * Styles for the merged-site shell only (page switcher, loader, error page).
+ * Deliberately plain, unlayered CSS scoped by id so it never interferes with -
+ * and is never overridden by - the Tailwind stylesheet of the page on screen.
+ */
+
+#msme-shell,
+#msme-shell *,
+#msme-shell-loader,
+#msme-shell-message {
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+/* ---------- Floating toggle ---------- */
+#msme-shell .msme-shell-toggle {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 9000;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 9px 14px 9px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  background: #0b4ea2;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(8, 55, 112, 0.35);
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+#msme-shell .msme-shell-toggle:hover {
+  background: #083770;
+  transform: translateY(-1px);
+}
+#msme-shell .msme-shell-toggle:focus-visible {
+  outline: 3px solid #84cc16;
+  outline-offset: 2px;
+}
+#msme-shell .msme-shell-toggle-icon {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 3px;
+}
+#msme-shell .msme-shell-toggle-icon i {
+  display: block;
+  width: 14px;
+  height: 2px;
+  border-radius: 2px;
+  background: #84cc16;
+}
+
+/* ---------- Panel ---------- */
+#msme-shell .msme-shell-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  background: rgba(5, 35, 74, 0.45);
+  backdrop-filter: blur(2px);
+}
+#msme-shell .msme-shell-panel {
+  position: fixed;
+  left: 16px;
+  bottom: 68px;
+  z-index: 2147483001;
+  width: min(560px, calc(100vw - 32px));
+  max-height: min(70vh, 640px);
+  overflow-y: auto;
+  border-radius: 18px;
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 24px 60px rgba(5, 35, 74, 0.35);
+  border: 1px solid #e2e8f0;
+}
+#msme-shell .msme-shell-panel-head {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: #0b4ea2;
+  color: #ffffff;
+  font-size: 14px;
+}
+#msme-shell .msme-shell-close {
+  margin: 0;
+  padding: 0 4px;
+  border: 0;
+  background: transparent;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+#msme-shell .msme-shell-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 6px 18px;
+  padding: 14px 18px 18px;
+}
+#msme-shell .msme-shell-groups h2 {
+  margin: 8px 0 6px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #65a30d;
+}
+#msme-shell .msme-shell-groups ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#msme-shell .msme-shell-groups a {
+  display: block;
+  margin: 0 -8px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  color: #1e293b;
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+}
+#msme-shell .msme-shell-groups a:hover {
+  background: #f0f6fd;
+  color: #0b4ea2;
+}
+#msme-shell .msme-shell-groups a[aria-current='page'] {
+  background: #0b4ea2;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* ---------- Loader ---------- */
+#msme-shell-loader {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #0b4ea2;
+  font-size: 15px;
+  font-weight: 600;
+  background: #f8fafd;
+}
+#msme-shell-loader .msme-shell-spinner {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 3px solid #dbe7f6;
+  border-top-color: #84cc16;
+  animation: msme-shell-spin 0.8s linear infinite;
+}
+@keyframes msme-shell-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Error / not found ---------- */
+#msme-shell-message {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  color: #0f172a;
+}
+#msme-shell-message h1 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #05234a;
+}
+#msme-shell-message p {
+  margin: 0 0 20px;
+  color: #475569;
+}
+#msme-shell-message ul {
+  columns: 2 220px;
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+#msme-shell-message li {
+  margin: 4px 0;
+}
+#msme-shell-message a {
+  color: #0b4ea2;
+}
+#msme-shell-message button {
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 10px;
+  background: #0b4ea2;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media print {
+  #msme-shell {
+    display: none !important;
+  }
+}

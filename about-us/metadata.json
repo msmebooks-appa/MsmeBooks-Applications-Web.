@@ -1,0 +1,6 @@
+{
+  "name": "MsmeBooks About Us",
+  "description": "About MsmeBooks - African-built cloud-based Accounting, POS, Inventory, and Business Management platform empowering businesses for global growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

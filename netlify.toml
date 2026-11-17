@@ -1,0 +1,15 @@
+# Netlify configuration for the merged MsmeBooks website (one single-page app)
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Single-page app: every URL (/pricing, /about-us, /careers/jobs/123, ...)
+# is served by index.html and routed in the browser.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,6 @@
+{
+  "name": "MsmeBooks Contact",
+  "description": "Get in touch with MsmeBooks for Accounting, POS, Inventory and Business Management solutions. Contact sales, request a demo, get support or explore partnerships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

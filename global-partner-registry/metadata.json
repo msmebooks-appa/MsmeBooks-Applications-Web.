@@ -1,0 +1,6 @@
+{
+  "name": "MsmeBooks Global Partner Registry & Directory",
+  "description": "Find trusted MsmeBooks partners, verified accountants, POS specialists, implementation consultants, and technology advisors across Africa and globally.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
