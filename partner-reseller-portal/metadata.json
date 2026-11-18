@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks — Partner & Reseller Portal",
-  "description": "Official partner and reseller agreement, commission tiers, digital signing, and partnership management portal for MsmeBooks.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

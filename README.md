@@ -15,31 +15,31 @@ npm run preview  # preview the production build
 
 | URL | Folder |
 | --- | --- |
-| `/` | `home/` |
-| `/about-us` | `about-us/` |
-| `/careers` | `careers/` |
-| `/contact-us` | `contact/` |
-| `/pricing` | `pricing/` |
-| `/get-started` | `complete saas/` |
-| `/use-cases-success-stories` | `use-cases/` |
-| `/professional-services` | `professional services/` |
-| `/outsourcing` | `outsourcing page/` |
-| `/partners` | `partner-page/` |
-| `/partner-programme` | `partner-builder/` |
-| `/partner-commission` | `partner-commission/` |
-| `/partner-reseller-portal` | `partner-reseller-portal/` |
-| `/partner-registry` | `global-partner-registry/` |
-| `/faq` | `ai-powwr/` |
-| `/blog` | `saas-blog/` |
-| `/training` | `training/` |
-| `/privacy-policy` | `privacy-policy/` |
-| `/terms-and-conditions` | `terms and condition/` |
-| `/refund-policy` | `refund policy/` |
+| `/` | `src/apps/home/` |
+| `/about-us` | `src/apps/about-us/` |
+| `/careers` | `src/apps/careers/` |
+| `/contact-us` | `src/apps/contact/` |
+| `/pricing` | `src/apps/pricing/` |
+| `/get-started` | `src/apps/complete saas/` |
+| `/use-cases-success-stories` | `src/apps/use-cases/` |
+| `/professional-services` | `src/apps/professional services/` |
+| `/outsourcing` | `src/apps/outsourcing page/` |
+| `/partners` | `src/apps/partner-page/` |
+| `/partner-programme` | `src/apps/partner-builder/` |
+| `/partner-commission` | `src/apps/partner-commission/` |
+| `/partner-reseller-portal` | `src/apps/partner-reseller-portal/` |
+| `/partner-registry` | `src/apps/global-partner-registry/` |
+| `/faq` | `src/apps/ai-powwr/` |
+| `/blog` | `src/apps/saas-blog/` |
+| `/training` | `src/apps/training/` |
+| `/privacy-policy` | `src/apps/privacy-policy/` |
+| `/terms-and-conditions` | `src/apps/terms and condition/` |
+| `/refund-policy` | `src/apps/refund policy/` |
 
 ## How it fits together
 
 - `index.html`, `package.json`, `vite.config.ts` at the root build the whole site.
-- `src/routes.ts` maps each URL to a page folder (add new pages here).
+- `src/routes.ts` maps each URL to a page folder in `src/apps/` (add new pages here).
 - `src/pages/*.tsx` wraps each folder's `App` with the providers from its old `main.tsx`.
 - Each page's own `index.css` is only applied while that page is open, so pages keep their original look.
 - A floating **Pages** button (bottom-left) lists every page; each page also keeps its own navbar.

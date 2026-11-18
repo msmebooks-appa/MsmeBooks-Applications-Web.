@@ -38,24 +38,24 @@ desktop.ini
 # The site is now ONE app built from the root package.json / vite.config.ts /
 # index.html, so these per-folder copies are no longer used.
 # =============================================================================
-/*/node_modules/
-/*/dist/
-/*/package.json
-/*/package-lock.json
-/*/bun.lock
-/*/vite.config.ts
-/*/tsconfig.json
-/*/index.html
-/*/README.md
-/*/.gitignore
-/*/.env.example
+/src/apps/*/node_modules/
+/src/apps/*/dist/
+/src/apps/*/package.json
+/src/apps/*/package-lock.json
+/src/apps/*/bun.lock
+/src/apps/*/vite.config.ts
+/src/apps/*/tsconfig.json
+/src/apps/*/index.html
+/src/apps/*/README.md
+/src/apps/*/.gitignore
+/src/apps/*/.env.example
 
 # Google AI Studio project files & screenshots (not part of the website)
-/*/metadata.json
-/*/public/
+/src/apps/*/metadata.json
+/src/apps/*/public/
 
 # Old Express dev servers (already fully commented out - not used by the site)
-/*/server.ts
+/src/apps/*/server.ts
 
 # Firebase backend blueprint (AI Studio artifact, not used by the website build)
-/*/firebase-blueprint.json
+/src/apps/*/firebase-blueprint.json

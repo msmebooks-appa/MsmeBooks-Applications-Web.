@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks — Complete SaaS Authentication Experience",
-  "description": "Complete, unified SaaS authentication ecosystem for MsmeBooks featuring African business operations, multi-branch, multi-company, 2FA, and AI business assistant.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks Partner Commission Program",
-  "description": "MsmeBooks Partner Commission & Recurring Earnings Program. Earn up to 40% recurring commissions across Bronze, Silver, Gold, and Platinum tiers with live interactive calculator, partner dashboard, and category directory.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks – SaaS Blog & Business Knowledge Center",
-  "description": "Practical accounting, POS, inventory, finance and business management insights for African and global SMEs to operate smarter and scale sustainably.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

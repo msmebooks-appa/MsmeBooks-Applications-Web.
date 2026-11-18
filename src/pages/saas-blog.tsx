@@ -1,11 +1,11 @@
 // Merged page: `saas-blog/`. Providers mirror the original saas-blog/src/main.tsx.
 import { StrictMode } from 'react';
-import App from '../../saas-blog/src/App';
-import { ThemeProvider } from '../../saas-blog/src/context/ThemeContext';
-import { ConnectionProvider } from '../../saas-blog/src/context/ConnectionContext';
-import { LanguageProvider } from '../../saas-blog/src/context/LanguageContext';
-import { CurrencyProvider } from '../../saas-blog/src/context/CurrencyContext';
-import css from '../../saas-blog/src/index.css?inline';
+import App from '../apps/saas-blog/src/App';
+import { ThemeProvider } from '../apps/saas-blog/src/context/ThemeContext';
+import { ConnectionProvider } from '../apps/saas-blog/src/context/ConnectionContext';
+import { LanguageProvider } from '../apps/saas-blog/src/context/LanguageContext';
+import { CurrencyProvider } from '../apps/saas-blog/src/context/CurrencyContext';
+import css from '../apps/saas-blog/src/index.css?inline';
 import { definePage } from '../shell/definePage';
 
 export default definePage(css, () => (

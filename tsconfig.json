@@ -15,5 +15,6 @@
     "allowImportingTsExtensions": true,
     "noEmit": true
   },
-  "include": ["src", "*/src"]
+  "include": ["src"],
+  "exclude": ["src/apps/*/*.ts", "src/apps/*/node_modules", "src/apps/*/dist"]
 }

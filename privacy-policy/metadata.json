@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks Privacy Policy",
-  "description": "Learn how MsmeBooks collects, uses and protects personal and business information across its cloud accounting, POS, inventory and business management platform.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

@@ -1,7 +1,7 @@
 // Merged page: `global-partner-registry/`. Providers mirror the original global-partner-registry/src/main.tsx.
 import { StrictMode } from 'react';
-import App from '../../global-partner-registry/src/App';
-import css from '../../global-partner-registry/src/index.css?inline';
+import App from '../apps/global-partner-registry/src/App';
+import css from '../apps/global-partner-registry/src/index.css?inline';
 import { definePage } from '../shell/definePage';
 
 // Service worker (vite-plugin-pwa) registration from the standalone app is disabled in the merged site:

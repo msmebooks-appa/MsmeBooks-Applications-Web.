@@ -1,7 +1,0 @@
-{
-  "name": "MsmeBooks — AI-Powered FAQ & Knowledge Centre",
-  "description": "Centralized, enterprise-ready FAQ and Knowledge Centre for MsmeBooks All-in-One Accounting, POS, Inventory & Business Management SaaS.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
-

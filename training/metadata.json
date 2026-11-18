@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks Academy - SaaS LMS & Training Ecosystem",
-  "description": "Complete SaaS Training Academy and Learning Management System for MsmeBooks: courses, certifications, virtual classrooms, software sandbox, instructor & corporate portals.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

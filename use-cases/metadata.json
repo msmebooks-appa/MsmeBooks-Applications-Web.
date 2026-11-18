@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks - Use Cases & Success Stories",
-  "description": "Discover how micro, small, and medium-sized enterprises (MSMEs) use MsmeBooks to streamline Accounting, POS, Inventory, and multi-branch operations.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

@@ -1,6 +1,0 @@
-{
-  "name": "MsmeBooks Refund & Cancellation Policy",
-  "description": "Enterprise-grade SaaS Refund & Cancellation Policy portal for MsmeBooks featuring policy navigation, interactive refund tracker, dispute resolution, and billing support.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
