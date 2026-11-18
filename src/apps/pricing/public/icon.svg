@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A4FD5"/>
+      <stop offset="100%" stop-color="#05286B"/>
+    </linearGradient>
+    <linearGradient id="limeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A3E635"/>
+      <stop offset="100%" stop-color="#84CC16"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#brandGrad)"/>
+  
+  <!-- Subtle inner glow -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="4"/>
+  
+  <!-- Book / Ledger Shapes -->
+  <path d="M128 144C128 126.327 142.327 112 160 112H352C369.673 112 384 126.327 384 144V368C384 385.673 369.673 400 352 400H160C142.327 400 128 385.673 128 368V144Z" fill="white" opacity="0.95"/>
+  
+  <!-- Inner Page Fold & Spine -->
+  <path d="M128 144H240V400H160C142.327 400 128 385.673 128 368V144Z" fill="#F1F5F9"/>
+  <line x1="240" y1="112" x2="240" y2="400" stroke="#CBD5E1" stroke-width="4" stroke-dasharray="8 6"/>
+  
+  <!-- Accent Checkmark / Growth Ribbon -->
+  <circle cx="340" cy="340" r="64" fill="url(#limeGrad)"/>
+  <path d="M312 340L332 360L368 322" stroke="#0B192C" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ledger Bar Chart lines -->
+  <rect x="168" y="168" width="48" height="12" rx="6" fill="#0A4FD5"/>
+  <rect x="168" y="200" width="48" height="12" rx="6" fill="#64748B"/>
+  <rect x="168" y="232" width="36" height="12" rx="6" fill="#94A3B8"/>
+  
+  <rect x="264" y="168" width="80" height="12" rx="6" fill="#0A4FD5"/>
+  <rect x="264" y="200" width="60" height="12" rx="6" fill="#64748B"/>
+  <rect x="264" y="232" width="72" height="12" rx="6" fill="#94A3B8"/>
+</svg>

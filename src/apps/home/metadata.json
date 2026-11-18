@@ -1,0 +1,6 @@
+{
+  "name": "MsmeBooks - African Business & FinTech Platform",
+  "description": "MsmeBooks brings accounting, invoicing, inventory, sales, expenses, POS, multi-branch management, and AI together for African businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

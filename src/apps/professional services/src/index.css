@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    /* Brand Colors */
+    --msme-blue: #1464C8;
+    --msme-lemon: #B7E532;
+    --msme-navy: #102B4E;
+    --msme-bg-light: #F5F9FD;
+    --msme-charcoal: #334155;
+
+    /* Root Theme CSS Variables - Light Mode */
+    --theme-bg: #FFFFFF;
+    --theme-text: #1E293B;
+    --theme-surface: #F8FAFC;
+    --theme-surface-alt: #F1F5F9;
+    --theme-border: #E2E8F0;
+    --theme-card-bg: #FFFFFF;
+    --theme-header-bg: #102B4E;
+
+    /* Theme Transition Duration and Smooth Fade Easing */
+    --theme-transition-duration: 450ms;
+    --theme-transition-timing: cubic-bezier(0.4, 0, 0.2, 1);
+    --theme-fade-transition: 
+      background-color var(--theme-transition-duration) var(--theme-transition-timing),
+      color var(--theme-transition-duration) var(--theme-transition-timing),
+      border-color var(--theme-transition-duration) var(--theme-transition-timing),
+      box-shadow var(--theme-transition-duration) var(--theme-transition-timing);
+  }
+
+  :root.dark,
+  html.dark,
+  html[data-theme="dark"] {
+    /* Root Theme CSS Variables - Dark Mode */
+    --theme-bg: #08121E;
+    --theme-text: #F1F5F9;
+    --theme-surface: #0A1727;
+    --theme-surface-alt: #0D1D31;
+    --theme-border: #1E293B;
+    --theme-card-bg: #0A1727;
+    --theme-header-bg: #060F1A;
+  }
+
+  html {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+    transition: var(--theme-fade-transition);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--theme-text);
+    background-color: var(--theme-bg);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    transition: var(--theme-fade-transition);
+    will-change: background-color, color;
+  }
+
+  #root {
+    background-color: var(--theme-bg);
+    color: var(--theme-text);
+    min-height: 100vh;
+    transition: var(--theme-fade-transition);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+html.dark ::-webkit-scrollbar-track {
+  background: #0d1b2a;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #1e293b;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Subtle glow */
+.lemon-glow {
+  box-shadow: 0 0 20px rgba(183, 229, 50, 0.35);
+}
+
+.blue-glow {
+  box-shadow: 0 10px 30px rgba(20, 100, 200, 0.2);
+}

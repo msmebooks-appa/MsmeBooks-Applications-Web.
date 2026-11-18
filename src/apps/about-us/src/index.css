@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-msme-blue: #0B4EA2;
+  --color-msme-blue-dark: #083770;
+  --color-msme-blue-deep: #05234A;
+  --color-msme-blue-light: #1E60B5;
+  --color-msme-blue-pale: #F0F6FD;
+  --color-msme-lime: #84CC16;
+  --color-msme-lime-dark: #65A30D;
+  --color-msme-lime-pale: #F7FEE7;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Base typography & theme transition */
+html {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+  background-color: #000000;
+  color: #f8fafc;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1e293b;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+html.dark body {
+  background-color: #000000;
+  color: #f8fafc;
+}
+

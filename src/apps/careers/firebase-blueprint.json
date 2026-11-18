@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Candidate, employer, or partner user profile",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "format": "email", "maxLength": 255 },
+        "fullName": { "type": "string", "maxLength": 128 },
+        "role": { "type": "string", "enum": ["candidate", "employer", "agency", "headhunter", "partner"] },
+        "phone": { "type": "string", "maxLength": 32 },
+        "country": { "type": "string", "maxLength": 64 },
+        "city": { "type": "string", "maxLength": 64 },
+        "avatarUrl": { "type": "string", "maxLength": 512 },
+        "createdAt": { "type": "string" },
+        "lastLoginAt": { "type": "string" },
+        "isVerified": { "type": "boolean" }
+      },
+      "required": ["id", "email", "fullName", "role"]
+    },
+    "UserApplication": {
+      "title": "UserApplication",
+      "description": "Candidate submitted application record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "jobId": { "type": "string", "maxLength": 128 },
+        "jobTitle": { "type": "string", "maxLength": 256 },
+        "companyName": { "type": "string", "maxLength": 128 },
+        "candidateName": { "type": "string", "maxLength": 128 },
+        "candidateEmail": { "type": "string", "maxLength": 255 },
+        "status": { "type": "string", "enum": ["submitted", "reviewing", "shortlisted", "interview", "offered", "rejected"] },
+        "appliedAt": { "type": "string" },
+        "salaryExpectation": { "type": "string", "maxLength": 64 }
+      },
+      "required": ["id", "userId", "jobId", "jobTitle", "status", "appliedAt"]
+    },
+    "JobAlert": {
+      "title": "JobAlert",
+      "description": "Personalized job alert subscription",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 255 },
+        "targetRole": { "type": "string", "maxLength": 128 },
+        "frequency": { "type": "string", "enum": ["daily", "weekly", "instant"] },
+        "isActive": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "email", "targetRole", "frequency", "isActive"]
+    },
+    "SavedJob": {
+      "title": "SavedJob",
+      "description": "User bookmarked job opportunity",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "userId": { "type": "string", "maxLength": 128 },
+        "jobId": { "type": "string", "maxLength": 128 },
+        "savedAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "jobId", "savedAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User accounts and profile state"
+    },
+    "/users/{userId}/applications/{applicationId}": {
+      "schema": "UserApplication",
+      "description": "User's submitted and tracked job applications"
+    },
+    "/users/{userId}/jobAlerts/{alertId}": {
+      "schema": "JobAlert",
+      "description": "Personalized job alert subscriptions"
+    },
+    "/users/{userId}/savedJobs/{jobId}": {
+      "schema": "SavedJob",
+      "description": "Saved and bookmarked jobs"
+    }
+  }
+}

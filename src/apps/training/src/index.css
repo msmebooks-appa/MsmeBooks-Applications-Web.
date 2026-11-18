@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --msme-blue: #0B4F9C;
+    --msme-blue-dark: #073B75;
+    --msme-blue-light: #EAF2FC;
+    --msme-lemon: #72B01D;
+    --msme-lemon-dark: #5B8D17;
+    --msme-lemon-light: #F2F9E8;
+  }
+
+  body {
+    font-family: 'Public Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

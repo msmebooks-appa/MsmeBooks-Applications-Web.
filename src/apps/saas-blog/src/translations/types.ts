@@ -1,0 +1,267 @@
+export type Language = 'en' | 'fr' | 'pt' | 'es';
+
+export interface LanguageInfo {
+  code: Language;
+  name: string;
+  nativeName: string;
+  region: string;
+  flag: string;
+}
+
+export interface TranslationDictionary {
+  common: {
+    loading: string;
+    back: string;
+    close: string;
+    cancel: string;
+    save: string;
+    share: string;
+    readMore: string;
+    minRead: string;
+    published: string;
+    views: string;
+    verified: string;
+    allRightsReserved: string;
+  };
+  languages: {
+    selectLanguage: string;
+    currentLanguage: string;
+    en: string;
+    fr: string;
+    pt: string;
+    es: string;
+  };
+  nav: {
+    home: string;
+    features: string;
+    solutions: string;
+    pricing: string;
+    resources: string;
+    blog: string;
+    login: string;
+    startFree: string;
+    cmsStats: string;
+    directSupport: string;
+    trustedBy: string;
+    mainWebsite: string;
+    backToHome: string;
+  };
+  resourceDropdown: {
+    blogArticles: string;
+    blogArticlesDesc: string;
+    businessGuides: string;
+    businessGuidesDesc: string;
+    accountingResources: string;
+    accountingResourcesDesc: string;
+    posResources: string;
+    posResourcesDesc: string;
+    inventoryManagement: string;
+    inventoryManagementDesc: string;
+    smeGrowth: string;
+    smeGrowthDesc: string;
+    faqsSupport: string;
+    faqsSupportDesc: string;
+    customerStories: string;
+    customerStoriesDesc: string;
+  };
+  connection: {
+    online: string;
+    offline: string;
+    offlineMode: string;
+    cloudSyncActive: string;
+    localEngineActive: string;
+    offlineNotice: string;
+    reconnectedNotice: string;
+    dismiss: string;
+    diagnosticsTitle: string;
+    latency: string;
+    cacheStatus: string;
+    cacheReady: string;
+    simulatingOffline: string;
+    simulateOffline: string;
+    exitSimulation: string;
+    checkConnection: string;
+    checking: string;
+    lastVerified: string;
+    justNow: string;
+    queuedActionsNotice: string;
+    offlineTooltip: string;
+  };
+  hero: {
+    kicker: string;
+    updatedWeekly: string;
+    titlePart1: string;
+    titleHighlight: string;
+    subtitle: string;
+    searchPlaceholder: string;
+    searchButton: string;
+    clear: string;
+    trendingTopics: string;
+    topicAccounting: string;
+    topicPos: string;
+    topicInventory: string;
+    topicCashflow: string;
+    topicRetail: string;
+    topicAi: string;
+  };
+  categories: {
+    all: string;
+    accounting: string;
+    pos: string;
+    inventory: string;
+    smeGrowth: string;
+    businessManagement: string;
+    finance: string;
+    retail: string;
+    aiAutomation: string;
+    caseStudies: string;
+  };
+  featured: {
+    featuredBadge: string;
+    readStory: string;
+    byAuthor: string;
+  };
+  articleGrid: {
+    title: string;
+    subtitle: string;
+    showingAll: string;
+    foundMatching: string;
+    clearFilters: string;
+    noArticlesFound: string;
+    noArticlesSubtitle: string;
+    resetSearch: string;
+    previous: string;
+    next: string;
+    pageOf: string;
+    filterBy: string;
+  };
+  articleCard: {
+    readArticle: string;
+    shareArticle: string;
+    bookmarkArticle: string;
+  };
+  blogDetails: {
+    backToHub: string;
+    tableOfContents: string;
+    tocSections: string;
+    backToTop: string;
+    shareArticle: string;
+    sharesCount: string;
+    totalEngagement: string;
+    copyLink: string;
+    linkCopied: string;
+    keyTakeaways: string;
+    practicalChecklist: string;
+    relatedArticles: string;
+    askAiAboutThis: string;
+    authorRole: string;
+    aboutAuthor: string;
+    articlesPublished: string;
+    leaveComment: string;
+    commentsTitle: string;
+    commentNamePlaceholder: string;
+    commentEmailPlaceholder: string;
+    commentTextPlaceholder: string;
+    postComment: string;
+    commentSubmitted: string;
+  };
+  newsletter: {
+    badge: string;
+    heading: string;
+    subheading: string;
+    placeholder: string;
+    button: string;
+    privacy: string;
+    successTitle: string;
+    successMessage: string;
+  };
+  industry: {
+    heading: string;
+    subheading: string;
+    exploreKit: string;
+    retailTitle: string;
+    retailDesc: string;
+    pharmacyTitle: string;
+    pharmacyDesc: string;
+    hospitalityTitle: string;
+    hospitalityDesc: string;
+    manufacturingTitle: string;
+    manufacturingDesc: string;
+    agricultureTitle: string;
+    agricultureDesc: string;
+    servicesTitle: string;
+    servicesDesc: string;
+  };
+  guides: {
+    heading: string;
+    subheading: string;
+    downloadManual: string;
+    readGuide: string;
+    chapters: string;
+    readTime: string;
+  };
+  caseStudies: {
+    heading: string;
+    subheading: string;
+    verifiedCustomer: string;
+    revenueGrowth: string;
+    inventoryAccuracy: string;
+    timeSaved: string;
+    readStory: string;
+  };
+  liveChat: {
+    title: string;
+    subtitle: string;
+    agentOnline: string;
+    callDirect: string;
+    callNow: string;
+    faqsTab: string;
+    chatTab: string;
+    placeholder: string;
+    send: string;
+    offlineQueueNotice: string;
+    askAiInstead: string;
+  };
+  aiAssistant: {
+    title: string;
+    subtitle: string;
+    placeholder: string;
+    send: string;
+    thinking: string;
+    suggestedQuestions: string;
+  };
+  admin: {
+    title: string;
+    totalArticles: string;
+    totalViews: string;
+    avgReadTime: string;
+    createArticle: string;
+    edit: string;
+    delete: string;
+    save: string;
+    cancel: string;
+  };
+  footer: {
+    mission: string;
+    productTitle: string;
+    resourcesTitle: string;
+    companyTitle: string;
+    supportLine: string;
+    hours: string;
+    copyright: string;
+    privacyPolicy: string;
+    termsOfService: string;
+    security: string;
+    language: string;
+    accountingLink: string;
+    posLink: string;
+    inventoryLink: string;
+    businessMgmtLink: string;
+    faqsLink: string;
+    helpLink: string;
+    aboutLink: string;
+    contactLink: string;
+    partnersLink: string;
+    careersLink: string;
+  };
+}

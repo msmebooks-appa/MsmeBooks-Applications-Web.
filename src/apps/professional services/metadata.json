@@ -1,0 +1,6 @@
+{
+  "name": "MsmeBooks Professional Services Marketplace",
+  "description": "Pan-African cloud accounting, POS, inventory, tax advisory, payroll, and business management services marketplace with verified firm and WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

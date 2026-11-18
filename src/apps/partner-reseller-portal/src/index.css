@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --brand-blue: #0046B8;
+    --brand-blue-dark: #00338A;
+    --brand-lemon: #84CC16;
+    --brand-lemon-dark: #65A30D;
+    --brand-soft-blue: #F0F6FF;
+    --brand-navy: #0F172A;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break-before {
+    page-break-before: always;
+  }
+}

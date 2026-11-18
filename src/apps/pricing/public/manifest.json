@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "MsmeBooks Pricing & Comparison",
+  "short_name": "MsmeBooks",
+  "description": "Simple, transparent pricing, comparison matrix, volume calculator, and FAQs for African businesses.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0A4FD5",
+  "background_color": "#070F1B",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
